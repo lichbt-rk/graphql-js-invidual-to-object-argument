@@ -17,7 +17,7 @@ Convert graphql function call from individual to object arguments
 
     npx graphql-function-invidual-to-object-argument <Directory>
 
-## Node
+## Note
 
 This codemod could not handle SpreadElement
 
