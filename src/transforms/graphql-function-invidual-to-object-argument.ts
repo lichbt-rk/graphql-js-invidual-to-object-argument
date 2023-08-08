@@ -52,7 +52,6 @@ const transformer = (file: FileInfo, api: API) => {
     }
 
     if (originArgs[0].type === "ObjectExpression") {
-      console.log("originArgs", originArgs[0].properties);
       return;
     }
 
