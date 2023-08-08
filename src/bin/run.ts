@@ -79,7 +79,7 @@ yargs
   .command({
     command: "$0 <paths...>",
     describe:
-      "Applies a graphql-function-invidual-to-object-argument to the specified paths",
+      "Applies a graphql-js-invidual-to-object-argument to the specified paths",
     builder: (command) => {
       return command
         .positional("paths", {
@@ -111,7 +111,7 @@ yargs
     },
     handler: run,
   })
-  .scriptName("npx graphql-function-invidual-to-object-argument")
+  .scriptName("npx graphql-js-invidual-to-object-argument")
   .example("$0 src")
   .example("$0 src -- --component=Grid --from=prop --to=newProp")
   .help()

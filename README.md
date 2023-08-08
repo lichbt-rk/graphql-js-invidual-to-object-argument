@@ -15,7 +15,9 @@ Convert graphql function call from individual to object arguments
 
 ## Usage
 
-    npx graphql-function-invidual-to-object-argument <PATH>
+    npx graphql-js-invidual-to-object-argument <PATH>
+    // For typescript
+    npx graphql-js-invidual-to-object-argument <PATH> -- --parser=ts
 
 ## Note
 
