@@ -1,4 +1,4 @@
-# CodeMod
+## CodeMod
 
 Convert graphql function call from individual to object arguments
 
@@ -13,7 +13,7 @@ Convert graphql function call from individual to object arguments
     })
 
 
-# Usage
+## Usage
 
     npx graphql-function-invidual-to-object-argument <Directory>
 
