@@ -1,16 +1,20 @@
 {
   "name": "graphql-js-invidual-to-object-argument",
-  "version": "1.0.0",
-  "bin": "./dist/bin/run.js",
+  "version": "1.0.1",
+  "bin": "dist/bin/run.js",
   "private": false,
   "author": "Lichbt",
   "license": "MIT",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "build": "rm -rf dist && tsc -d -p tsconfig.json",
     "dev": "rm -rf dist && tsc -d -w -p tsconfig.json",
     "test:lint": "eslint src --ext .ts",
     "fix:lint": "eslint src --ext .ts --fix",
-    "test": "jest"
+    "test": "jest",
+    "publish": "npm publish --access public"
   },
   "devDependencies": {
     "@types/jscodeshift": "^0.11.6",
