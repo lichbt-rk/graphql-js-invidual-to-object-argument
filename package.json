@@ -1,6 +1,6 @@
 {
   "name": "graphql-js-invidual-to-object-argument",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "bin": "dist/bin/run.js",
   "private": false,
   "author": "Lichbt",
